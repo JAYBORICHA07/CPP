@@ -29,7 +29,6 @@ int search(int arr[], int size, int target){
                 end = mid -1;
             }
             else return -1;
-            
         }
     }
     else{
@@ -45,12 +44,8 @@ int search(int arr[], int size, int target){
             else if(target < mid){
                 end = mid -1;
             }
-            else return -1;
-            
+            else return -1;       
     }
-    
-    
-
 }
 }
 
